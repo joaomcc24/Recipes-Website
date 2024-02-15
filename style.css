@@ -2,6 +2,9 @@ body{
     background-color:rgb(21, 20, 27);
     font-family: "Montserrat";
     color: white;
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
 ul{
     display: flex;
@@ -16,8 +19,8 @@ ul{
     text-decoration: none;
 }
 .food{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 .food:hover{
     transform: rotate(360deg);
@@ -46,15 +49,23 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 30px;
 }
 h4 a{
     color: inherit;
 }
+.take{
+    margin-top: -30px;
+}
 .take a{
     color: rgb(165, 214, 90);
 }
-#name:hover{
+
+.bg{
+    max-width: 100%;
+    height: auto;
+}
+/*#name:hover{
     transform: scaleX(1.2);
     transition: 1s;
-}
+}*/

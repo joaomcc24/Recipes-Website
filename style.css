@@ -1,0 +1,60 @@
+body{
+    background-color:rgb(21, 20, 27);
+    font-family: "Montserrat";
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+.navbar a {
+    color: inherit;
+    padding: 30px;
+    text-decoration: none;
+}
+.food{
+    width: 500px;
+    height: 500px;
+}
+.food:hover{
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+#cfood{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    color: rgb(165, 214, 90);
+    font-family: "Bebas Neue";
+    font-size: 50px;
+}
+#slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.take{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+h4 a{
+    color: inherit;
+}
+.take a{
+    color: rgb(165, 214, 90);
+}
+#name:hover{
+    transform: scaleX(1.2);
+    transition: 1s;
+}
